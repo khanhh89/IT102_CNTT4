@@ -29,15 +29,15 @@ function divice(a:string|number, b:string|number):number{
     }
     return toNumber(a) / toNumber(b)
 }
-//lũy thừa
+
 function power(a:number, b:number):number{
     return Math.pow(a,b)
 }
-//căn bậc n
+
 function sqrt(a:number, b:number):number{
     return Math.pow(a,1/b)
 }
-//giai thừa
+
 function factorial(n: number):number{
     if(isNaN(n)||n<0||n%1!==0){
         return NaN
@@ -127,3 +127,4 @@ function caculata(operator:string):void{
     }
 
 }
+
