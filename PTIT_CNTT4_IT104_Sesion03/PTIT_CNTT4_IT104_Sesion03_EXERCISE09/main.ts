@@ -122,9 +122,8 @@ function caculata(operator:string):void{
         default:
             result = NaN;    
     }
-
-    // Display the result
     if(resultElement){
         resultElement.textContent = result.toString()
     }
+
 }
